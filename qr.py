@@ -9,7 +9,7 @@ class QRCodeGenerator:
         self.master.title("QR Code Generator")
         self.master.geometry("400x400")
         
-        self.data = pd.read_csv('path_to_your_file.csv')
+        self.data = pd.read_csv('Book1.csv')
         self.current_index = 0
         self.generated_qrs = set()
         

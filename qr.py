@@ -30,7 +30,7 @@ class QRCodeGenerator:
         
         if self.current_index in self.generated_qrs:
             messagebox.showwarning("Warning", "QR code already generated for this record.")
-            self.next_button.config(state="disabled")
+            #self.next_button.config(state="disabled")
             return
         
         qr = qrcode.make(record_str)
